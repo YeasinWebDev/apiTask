@@ -1,10 +1,11 @@
 import './App.css'
+import UserBoard from './components/UserBoard'
 
 function App() {
 
   return (
     <div>
-      <h1>hi</h1>
+      <UserBoard/>
     </div>
   )
 }
