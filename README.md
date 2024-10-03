@@ -28,3 +28,16 @@
    2)  Form Handling: A form is provided for submitting a new post with user details, and upon submission, the data is sent to the API.
 
    3) Comments Display: Comments related to each user can be viewed in a modal.
+
+
+    ## Assumptions and Decisions Made
+       1. It is designed with a simple UI, utilizing Tailwind CSS for styling, which ensures a responsive layout.
+       2. The axios library is used for making HTTP requests, and the component is built purely in functional style.
+
+     ## Features
+    1. Fetches user data from the JSONPlaceholder API.
+    2. Allows users to submit posts via a form.
+    3. Displays user comments in a modal upon clicking a user.
+
+    ## Known Issues
+    1.  Currently, only one user can post because the post api
