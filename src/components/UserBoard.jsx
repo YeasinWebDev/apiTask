@@ -65,8 +65,8 @@ const UserBoard = () => {
                 <h1 className='font-semibold text-3xl'>User Board</h1>
                 <p className='text-sm'>Welcome to the User Board</p>
             </div>
-            <form onSubmit={handleSubmit} className='mb-8'>
-                <div className='flex items-center justify-center gap-5 flex-col md:flex-row'>
+            <form onSubmit={handleSubmit} className='my-8'>
+                <div className='flex items-center justify-center gap-4 flex-col md:flex-row'>
                     <div className='mb-4 w-full'>
                         <label className='block text-sm font-medium mb-2'>Name</label>
                         <input
@@ -105,14 +105,14 @@ const UserBoard = () => {
                     />
                 </div>
                 <div className='mb-4'>
-                    <label className='block text-sm font-medium mb-2'>comment</label>
+                    <label className='block text-sm font-medium mb-2'>Comment</label>
                     <textarea
                         name='comment'
                         value={formData.comment}
                         onChange={handleChange}
                         className='w-full border border-gray-300 rounded px-4 py-2'
-                        placeholder='Enter comment'
-                        rows='4'
+                        placeholder='Enter Comment'
+                        rows='3'
                         required
                     ></textarea>
                 </div>
