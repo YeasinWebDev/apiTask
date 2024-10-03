@@ -16,7 +16,7 @@
   npm start  
 
 
-4. ****Visit the Application:**
+4. **Visit the Application:**
     ```bash
  Open your browser and go to http://localhost:3000 to see the User Board in action.
 
