@@ -13,16 +13,16 @@
 
 3. **Start the Development Server:**
   ```bash 
-  npm start  
+  npm start 
 
 
-4. **Visit the Application:**
-    ```bash
-    Open your browser and go to http://localhost:3000 to see the User Board in action.
+
+4. Visit the Application:
+Open your browser and go to http://localhost:3000 to see the User Board in action.
 
 
- ## Brief Explanation of Your Approach
- The `UserBoard` component is designed to display a list of users fetched from the JSONPlaceholder API 
+## Brief Explanation of Your Approach
+ The UserBoard component is designed to display a list of users fetched from the JSONPlaceholder API 
     
    1) User Fetching: Users are fetched from the API when the component mounts.
 
