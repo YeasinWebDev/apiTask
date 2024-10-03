@@ -18,7 +18,7 @@
 
 4. **Visit the Application:**
     ```bash
- Open your browser and go to http://localhost:3000 to see the User Board in action.
+    Open your browser and go to http://localhost:3000 to see the User Board in action.
 
 
  ## Brief Explanation of Your Approach
